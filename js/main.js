@@ -101,7 +101,7 @@ const detectaProductoEliminar=(producList)=>{
 
 const eliminarTodaLista = () => {
 
-    localStorage.clear()
+    localStorage.clear('arrayLista')
 };
 mostrarProductos();
 
